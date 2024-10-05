@@ -3,8 +3,11 @@
 .idea
 
 # Vendors
-node_modules/
+node_modules/*
+
+
 
 # Build
 build/
+dist/
 /npm-debug.log
