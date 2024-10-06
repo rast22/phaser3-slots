@@ -18,18 +18,20 @@ export default class PreloadScene extends Scene {
     this.load.atlas('symbols_blur', '/images/symbols-blur/symbols-blur.png', '/images/symbols-blur/symbols-blur.json');
     this.load.atlas('bgButtons', '/images/buttons/buttons.png', '/images/buttons/buttons.json');
 
-    this.progressBar = this.add.graphics();
     this.progressBox = this.add.graphics();
+    this.progressBar = this.add.graphics();
     this.progressBox.fillStyle(0x222222, 0.8);
     this.progressBox.fillRect(gameConfig.width / 2 - 450, gameConfig.height / 2 - 30, 900, 50);
     //load text
     this.loadingText = this.make.text({
       x: gameConfig.width / 2,
-      y: gameConfig.height / 2 + 20,
+      y: gameConfig.height / 2 + 60,
       text: '0%',
       style: {
-        font: '30px PT Serif',
-        color: '#ffffff'
+        font: '42px PT Serif',
+        color: '#d000ff',
+          stroke:'#ffffff',
+          strokeThickness: 4,
       }
     });
     this.loadingText.setOrigin(0.5, 0.5);
