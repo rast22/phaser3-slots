@@ -2,12 +2,11 @@ import BluredReel from "./BluredReels";
 import MainScene from "../scenes/Main";
 import gameConfig from "../gameConfig";
 import Sprite from "./Sprite";
+import State from "../state";
 
 export default class Spin {
-    private _scene: MainScene;
-    private blurredSymbols: BluredReel;
-    // private _txtSpin: Phaser.GameObjects.DynamicBitmapText;
-    private bgSpin: Phaser.GameObjects.Sprite;
+    private readonly _scene: MainScene;
+    private _bgSpin: Phaser.GameObjects.Sprite;
 
     constructor(scene: MainScene) {
         this._scene = scene;
@@ -16,19 +15,18 @@ export default class Spin {
 
     startSpin() {
         console.log('Spin started');
-        this.bgSpin = new Sprite(this._scene, gameConfig.width-136, gameConfig.height/2 , 'bgButtons', 'button.png');
+        this._bgSpin = new Sprite(this._scene, gameConfig.width-136, gameConfig.height/2 , 'bgButtons', 'button.png');
 
-        this.bgSpin.on('pointerdown', this.setBlurSymbols, this);
-        this.bgSpin.on('pointerup', () => this.bgSpin.setScale(1));
+        this._bgSpin.on('pointerdown', this.setBlurSymbols, this);
+        this._bgSpin.on('pointerup', () => this._bgSpin.setScale(1));
     }
 
     setBlurSymbols() {
         //Class Tween
-        // this.tweens = new Tween(this.scene);
-        this.bgSpin.setScale(0.9);
-        this.blurredSymbols = new BluredReel(this._scene);
-
-        console.log('Spin clicked', this.blurredSymbols.scene);
-
+        if (!State.isSpinning) {
+            State.isSpinning = true;
+            this._bgSpin.setScale(0.9);
+            new BluredReel(this._scene);
+        }
     }
 }

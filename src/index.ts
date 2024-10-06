@@ -15,8 +15,9 @@ const config: Types.Core.GameConfig = {
     },
     parent: 'game-container',
     backgroundColor: 'transparent',
+    transparent: true,
     scale: {
-        mode: Phaser.Scale.FIT,
+        mode: Phaser.Scale.NONE,
         autoCenter: Phaser.Scale.CENTER_BOTH
     },
     fps : {

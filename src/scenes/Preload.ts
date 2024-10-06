@@ -13,7 +13,7 @@ export default class PreloadScene extends Scene {
   preload() {
     //load image
     this.load.path = './assets';
-    this.load.atlas('background', '/images/machine/machine-bg.png', '/images/machine/machine-bg.json');
+    this.load.atlas('background', '/images/machine/machine.png', '/images/machine/machine.json');
     this.load.atlas('symbols', '/images/symbols/symbols.png', '/images/symbols/symbols.json');
     this.load.atlas('symbols_blur', '/images/symbols-blur/symbols-blur.png', '/images/symbols-blur/symbols-blur.json');
     this.load.atlas('bgButtons', '/images/buttons/buttons.png', '/images/buttons/buttons.json');
