@@ -1,0 +1,125 @@
+{
+	"textures": [
+		{
+			"image": "symbols-blur.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 188,
+				"h": 877
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "symbols_1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 456,
+						"h": 256
+					},
+					"spriteSourceSize": {
+						"x": 135,
+						"y": 31,
+						"w": 186,
+						"h": 192
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 186,
+						"h": 192
+					}
+				},
+				{
+					"filename": "symbols_2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 456,
+						"h": 256
+					},
+					"spriteSourceSize": {
+						"x": 135,
+						"y": 41,
+						"w": 185,
+						"h": 172
+					},
+					"frame": {
+						"x": 1,
+						"y": 195,
+						"w": 185,
+						"h": 172
+					}
+				},
+				{
+					"filename": "symbols_3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 456,
+						"h": 256
+					},
+					"spriteSourceSize": {
+						"x": 139,
+						"y": 44,
+						"w": 177,
+						"h": 168
+					},
+					"frame": {
+						"x": 1,
+						"y": 369,
+						"w": 177,
+						"h": 168
+					}
+				},
+				{
+					"filename": "symbols_4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 456,
+						"h": 256
+					},
+					"spriteSourceSize": {
+						"x": 140,
+						"y": 41,
+						"w": 176,
+						"h": 172
+					},
+					"frame": {
+						"x": 1,
+						"y": 539,
+						"w": 176,
+						"h": 172
+					}
+				},
+				{
+					"filename": "symbols_5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 456,
+						"h": 256
+					},
+					"spriteSourceSize": {
+						"x": 140,
+						"y": 46,
+						"w": 175,
+						"h": 163
+					},
+					"frame": {
+						"x": 1,
+						"y": 713,
+						"w": 175,
+						"h": 163
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:62acf686c5e3be533d80ef08f7e931a9:5af339461f70da4a3ed4ad1258d0c3f9:d295ed7153fe372207e34d26d380974a$"
+	}
+}

@@ -1,33 +1,33 @@
 {
 	"textures": [
 		{
-			"image": "bg.png",
+			"image": "machine-bg.png",
 			"format": "RGBA8888",
 			"size": {
-				"w": 1000,
-				"h": 484
+				"w": 1502,
+				"h": 722
 			},
 			"scale": 1,
 			"frames": [
 				{
-					"filename": "bg.png",
+					"filename": "oceannn.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 998,
-						"h": 482
+						"w": 1500,
+						"h": 720
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 998,
-						"h": 482
+						"w": 1500,
+						"h": 720
 					},
 					"frame": {
 						"x": 1,
 						"y": 1,
-						"w": 998,
-						"h": 482
+						"w": 1500,
+						"h": 720
 					}
 				}
 			]
@@ -36,6 +36,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:795fc4cf1fab04d0faf76160c5c7d7d5:5011c93617779be25372e0e168b74a7a:fda475f1469833f402cd7f3119be2bc2$"
+		"smartupdate": "$TexturePacker:SmartUpdate:705f778a0b625be88d423d2be360d6b1:4ab4792ef4405bb108b61787693fa431:84ac51c3741456d087e0029ffc66aef1$"
 	}
 }
